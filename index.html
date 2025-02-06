@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyHub - Academic Success Platform</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo.png" alt="StudyHub Logo" width="40" height="40" class="d-inline-block align-top">
+        <span class="brand-text">StudyBuddy</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="study-now.html">Study Tools</a></li>
+          <li class="nav-item"><a class="nav-link" href="procrastination.html">Productivity</a></li>
+          <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+        </ul>
+        <div class="dark-mode-toggle ms-3">
+          <button class="btn btn-sm btn-mode">
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Academic Excellence Made Simple</h1>
+          <p class="hero-subtitle">Smart tools for focused learning and effective time management</p>
+          <div class="cta-group">
+            <a href="study-now.html" class="btn btn-primary">Start Learning</a>
+            <a href="#features" class="btn btn-outline">Explore Features</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/images/hero-illustration.png" alt="Study illustration" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2 class="section-title">Empower Your Learning Journey</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3>Focus Timer</h3>
+          <p>Customizable Pomodoro technique implementation with progress tracking</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3>AI Assistant</h3>
+          <p>24/7 study support and resource recommendations powered by AI</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Progress Analytics</h3>
+          <p>Detailed insights into your study patterns and performance metrics</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="assets/images/logo.png" alt="StudyHub Logo" width="50" height="50">
+          <h4>StudyHub</h4>
+          <p>Elevating Academic Performance</p>
+        </div>
+        <div class="footer-links">
+          <div class="link-group">
+            <h5>Resources</h5>
+            <ul>
+              <li><a href="study-now.html">Study Tools</a></li>
+              <li><a href="procrastination.html">Productivity Guide</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="link-group">
+            <h5>Support</h5>
+            <ul>
+              <li><a href="feedback.html">Contact Us</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Documentation</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="social-links">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="copyright">&copy; 2023 StudyHub. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
